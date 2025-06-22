@@ -8,31 +8,31 @@ tags:
 - loss:CosineSimilarityLoss
 base_model: sentence-transformers/all-MiniLM-L6-v2
 widget:
-- source_sentence: COROLLA HYBRID CVT 1.8L
+- source_sentence: JETTA SPORTLINE L4 TURBO AUT 4 ABS CA CE PIEL
   sentences:
-  - BMW 320I SEDAN 2.0L TURBO
-  - MUSTANG ECOBOOST PREMIUM
-  - COROLLA HYBRID CVT 1.8L
-- source_sentence: BMW SERIE 3 320I L4 TURBO AUT
+  - MAZDA CX-3 I TOURING
+  - MAZDA 3 SEDAN SPORT 2.5L
+  - JETTA SPORTLINE 1.4L TSI DSG
+- source_sentence: AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB
   sentences:
-  - SERIE 2 220I GRAN COUPE, L4, 2.0T, 192 CP, 4 PUERTAS, AUT
-  - 220IA GRAN COUPE 2.0L TA
-  - BMW X1 SDRIVE20I
-- source_sentence: TIGUAN COMFORTLINE DSG L4 TURBO AUT
-  sentences:
-  - 220IA COUPE 2.0L TA
-  - JETTA STYLE 1.4L
-  - TIGUAN COMFORTLINE 1.4L
-- source_sentence: SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB
-  sentences:
-  - 220IA COUPE 2.0L TA
+  - TIGUAN COMFORTLINE 1.4L DSG
+  - CHEVROLET SPARK LT 1.4L MANUAL
   - AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB
-  - ESCAPE SE SPORT HÍBRIDO
-- source_sentence: SENTRA ADVANCE L4 AUT 4 ABS CA CE TELA
+- source_sentence: CIVIC EX-T L4 TURBO AUT 4 ABS CA CE PIEL
+  sentences:
+  - A3 RS3 SEDAN QUATTRO S TRONIC
+  - ACCORD HYBRID 2.0L
+  - COROLLA HYBRID CVT 1.8L
+- source_sentence: AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB
   sentences:
   - AVEO LT PLUS 1.5L HB CVT
-  - NISSAN SENTRA ADVANCE 1.8L
-  - SERIE 2 220IA GRAN COUPE L4 IMP AUT 4 ABS CA CE PIEL SM CQ CB
+  - SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB
+  - MAZDA 2 SEDAN TOURING 1.5L
+- source_sentence: SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB
+  sentences:
+  - A3 SEDAN 2.0 TFSI S LINE STRONIC
+  - SERIE 2 220I COUPE, L4, 2.0T, 184 CP, 2 PUERTAS, AUT
+  - CHEVROLET AVEO LS 1.5L AT
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -86,9 +86,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'SENTRA ADVANCE L4 AUT 4 ABS CA CE TELA',
-    'NISSAN SENTRA ADVANCE 1.8L',
-    'AVEO LT PLUS 1.5L HB CVT',
+    'SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB',
+    'SERIE 2 220I COUPE, L4, 2.0T, 184 CP, 2 PUERTAS, AUT',
+    'A3 SEDAN 2.0 TFSI S LINE STRONIC',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -150,11 +150,11 @@ You can finetune this model on your own dataset.
   | type    | string                                                                            | string                                                                            | float                                                          |
   | details | <ul><li>min: 8 tokens</li><li>mean: 17.34 tokens</li><li>max: 24 tokens</li></ul> | <ul><li>min: 7 tokens</li><li>mean: 14.05 tokens</li><li>max: 30 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.52</li><li>max: 1.0</li></ul> |
 * Samples:
-  | sentence_0                                            | sentence_1                                  | label            |
-  |:------------------------------------------------------|:--------------------------------------------|:-----------------|
-  | <code>SPARK LT L4 1.4L STD</code>                     | <code>CHEVROLET SPARK LT 1.4L MANUAL</code> | <code>1.0</code> |
-  | <code>TIGUAN COMFORTLINE DSG L4 TURBO AUT</code>      | <code>JETTA STYLE 1.4L</code>               | <code>0.0</code> |
-  | <code>CIVIC EX-T L4 TURBO AUT 4 ABS CA CE PIEL</code> | <code>CIVIC EX-T CVT TURBO</code>           | <code>1.0</code> |
+  | sentence_0                                              | sentence_1                           | label            |
+  |:--------------------------------------------------------|:-------------------------------------|:-----------------|
+  | <code>TIGUAN COMFORTLINE DSG L4 TURBO AUT</code>        | <code>JETTA STYLE 1.4L</code>        | <code>0.0</code> |
+  | <code>TERRITORY TITANIUM TURBO L4 AUT CA CE PIEL</code> | <code>ESCAPE SE SPORT HÍBRIDO</code> | <code>0.0</code> |
+  | <code>COROLLA HYBRID CVT 1.8L</code>                    | <code>COROLLA HYBRID CVT 1.8L</code> | <code>1.0</code> |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
