@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from typing import List
-from homologador import buscar_similares_hibrido, get_descriptions, load_json
+from homologador_utils import buscar_similares_hibrido, get_descriptions, load_json
 from pathlib import Path
 
 app = FastAPI()

@@ -1,0 +1,327 @@
+[
+    {
+        "query": "A3 S LINE SEDAN L4 FSI AUT 4 ABS CA CE TELA",
+        "target": "A3 SEDAN 2.0 TFSI S LINE STRONIC",
+        "label": 1
+    },
+    {
+        "query": "A3 S LINE SEDAN L4 FSI AUT 4 ABS CA CE TELA",
+        "target": "A3 RS3 SEDAN QUATTRO S TRONIC",
+        "label": 0
+    },
+    {
+        "query": "JETTA SPORTLINE L4 TURBO AUT 4 ABS CA CE PIEL",
+        "target": "JETTA SPORTLINE 1.4L TSI DSG",
+        "label": 1
+    },
+    {
+        "query": "JETTA SPORTLINE L4 TURBO AUT 4 ABS CA CE PIEL",
+        "target": "JETTA GLI 2.0L TSI DSG",
+        "label": 0
+    },
+    {
+        "query": "MAZDA 3 SEDAN I GRAND TOURING L4 IMP AUT",
+        "target": "MAZDA 3 SEDAN GRAND TOURING 2.5L",
+        "label": 1
+    },
+    {
+        "query": "MAZDA 3 SEDAN I GRAND TOURING L4 IMP AUT",
+        "target": "MAZDA CX-3 I TOURING",
+        "label": 0
+    },
+    {
+        "query": "CIVIC EX-T L4 TURBO AUT 4 ABS CA CE PIEL",
+        "target": "CIVIC EX-T CVT TURBO",
+        "label": 1
+    },
+    {
+        "query": "CIVIC EX-T L4 TURBO AUT 4 ABS CA CE PIEL",
+        "target": "ACCORD HYBRID 2.0L",
+        "label": 0
+    },
+    {
+        "query": "COROLLA XEI L4 IMP AUT CA CE PIEL SM",
+        "target": "COROLLA XEI CVT 1.8L",
+        "label": 1
+    },
+    {
+        "query": "COROLLA XEI L4 IMP AUT CA CE PIEL SM",
+        "target": "CAMRY XSE V6 AUT",
+        "label": 0
+    },
+    {
+        "query": "BMW SERIE 3 320I L4 TURBO AUT",
+        "target": "BMW 320I SEDAN 2.0L TURBO",
+        "label": 1
+    },
+    {
+        "query": "BMW SERIE 3 320I L4 TURBO AUT",
+        "target": "BMW X1 SDRIVE20I",
+        "label": 0
+    },
+    {
+        "query": "AUDI A4 AVANT QUATTRO 2.0 TFSI",
+        "target": "A4 AVANT 2.0 TFSI QUATTRO STRONIC",
+        "label": 1
+    },
+    {
+        "query": "AUDI A4 AVANT QUATTRO 2.0 TFSI",
+        "target": "Q5 2.0 TFSI S LINE",
+        "label": 0
+    },
+    {
+        "query": "TOUAREG V6 TIPTRONIC AUT 4X4 PIEL CD",
+        "target": "TOUAREG V6 TIPTRONIC 3.6L AWD",
+        "label": 1
+    },
+    {
+        "query": "TOUAREG V6 TIPTRONIC AUT 4X4 PIEL CD",
+        "target": "TIGUAN COMFORTLINE 1.4L",
+        "label": 0
+    },
+    {
+        "query": "CAMARO SS COUPÉ V8 AUT 6 CA CE PIEL SM",
+        "target": "CAMARO SS 6.2L V8 AT",
+        "label": 1
+    },
+    {
+        "query": "CAMARO SS COUPÉ V8 AUT 6 CA CE PIEL SM",
+        "target": "MUSTANG ECOBOOST PREMIUM",
+        "label": 0
+    },
+    {
+        "query": "TERRITORY TITANIUM TURBO L4 AUT CA CE PIEL",
+        "target": "FORD TERRITORY TITANIUM 1.5L TURBO",
+        "label": 1
+    },
+    {
+        "query": "TERRITORY TITANIUM TURBO L4 AUT CA CE PIEL",
+        "target": "ESCAPE SE SPORT HÍBRIDO",
+        "label": 0
+    },
+    {
+        "query": "SENTRA ADVANCE L4 AUT 4 ABS CA CE TELA",
+        "target": "NISSAN SENTRA ADVANCE 1.8L",
+        "label": 1
+    },
+    {
+        "query": "SENTRA ADVANCE L4 AUT 4 ABS CA CE TELA",
+        "target": "VERSA SENSE CVT 1.6L",
+        "label": 0
+    },
+    {
+        "query": "CX-30 GRAND TOURING L4 AUT PIEL SM",
+        "target": "MAZDA CX-30 GRAND TOURING 2.5L",
+        "label": 1
+    },
+    {
+        "query": "CX-30 GRAND TOURING L4 AUT PIEL SM",
+        "target": "CX-5 I SPORT AT 2.0L",
+        "label": 0
+    },
+    {
+        "query": "TIGUAN COMFORTLINE DSG L4 TURBO AUT",
+        "target": "TIGUAN COMFORTLINE 1.4L DSG",
+        "label": 1
+    },
+    {
+        "query": "TIGUAN COMFORTLINE DSG L4 TURBO AUT",
+        "target": "JETTA STYLE 1.4L",
+        "label": 0
+    },
+    {
+        "query": "COROLLA HYBRID CVT 1.8L",
+        "target": "COROLLA HYBRID CVT 1.8L",
+        "label": 1
+    },
+    {
+        "query": "COROLLA HYBRID CVT 1.8L",
+        "target": "YARIS SEDAN 1.5L AUT",
+        "label": 0
+    },
+    {
+        "query": "MARCH SENSE L4 AUT",
+        "target": "MARCH SENSE 1.6L CVT",
+        "label": 1
+    },
+    {
+        "query": "MARCH SENSE L4 AUT",
+        "target": "NOTE ADVANCE 1.6L",
+        "label": 0
+    },
+    {
+        "query": "ALMERA SENSE MT 1.5L",
+        "target": "VERSA SENSE 1.6L MANUAL",
+        "label": 0
+    },
+    {
+        "query": "VERSA ADVANCE CVT 1.6L",
+        "target": "VERSA ADVANCE CVT 1.6L",
+        "label": 1
+    },
+    {
+        "query": "X-TRAIL SENSE CVT 2.5L",
+        "target": "X-TRAIL SENSE 2.5L CVT",
+        "label": 1
+    },
+    {
+        "query": "X-TRAIL SENSE CVT 2.5L",
+        "target": "PATHFINDER 3.5L AUT",
+        "label": 0
+    },
+    {
+        "query": "MAZDA 2 SEDAN I TOURING 1.5L AUT",
+        "target": "MAZDA 2 SEDAN TOURING 1.5L",
+        "label": 1
+    },
+    {
+        "query": "MAZDA 2 SEDAN I TOURING 1.5L AUT",
+        "target": "MAZDA 3 SEDAN SPORT 2.5L",
+        "label": 0
+    },
+    {
+        "query": "SPARK LT L4 1.4L STD",
+        "target": "CHEVROLET SPARK LT 1.4L MANUAL",
+        "label": 1
+    },
+    {
+        "query": "SPARK LT L4 1.4L STD",
+        "target": "ONIX TURBO PREMIER AUT",
+        "label": 0
+    },
+    {
+        "query": "AVEO LS 1.5L AUT CA CE",
+        "target": "CHEVROLET AVEO LS 1.5L AT",
+        "label": 1
+    },
+    {
+        "query": "AVEO LS 1.5L AUT CA CE",
+        "target": "CRUZE PREMIER 1.4L TURBO",
+        "label": 0
+    },
+    {
+        "query": "AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB",
+        "target": "AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB",
+        "label": 1
+    },
+    {
+        "query": "AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB",
+        "target": "AVEO 1.5 LS PAQ A TM",
+        "label": 1
+    },
+    {
+        "query": "AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB",
+        "target": "AVEO 1.5 LT PAQ B TM",
+        "label": 0
+    },
+    {
+        "query": "AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB",
+        "target": "AVEO LT PLUS 1.5L HB CVT",
+        "label": 0
+    },
+    {
+        "query": "AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB",
+        "target": "AVEO 1.5 LS PAQ D TM ESC",
+        "label": 0
+    },
+    {
+        "query": "AVEO PAQ D LS L4 MPI STD 4 ABS CA CE TELA FM SQ CB",
+        "target": "AVEO 1.5 LS PAQ D TM ESC",
+        "label": 1
+    },
+    {
+        "query": "AVEO PAQ D LS L4 MPI STD 4 ABS CA CE TELA FM SQ CB",
+        "target": "AVEO 1.5 LT PAQ F TM SD",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "220IA COUPE 2.0L TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "220IA GRAN COUPE 2.0L TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 220IA GRAN COUPE L4 IMP AUT 4 ABS CA CE PIEL SM CQ CB",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 4 430IA COUPE L4 IMP AUT 2 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 4 430IA GRAN COUPE L6 IMP AUT 4 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE M M2 COUPE L6 IMP AUT 2 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE M M4 COUPE COMPETITION L6 IMP AUT 2 ABS CA CE PIEL SM SQ CB",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 M240IA COUPE M SPORT L6 IMP AUT 3 ABS CA CE PIEL SM CQ CB",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 220I COUPE, L4, 2.0T, 184 CP, 2 PUERTAS, AUT",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 220I GRAN COUPE, L4, 2.0T, 192 CP, 4 PUERTAS, AUT",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 M2 COUPE, L6, 3.0T, 460 CP, 2 PUERTAS, AUT",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 2 M240IA BASE, L6, 3.0T, 387 CP, 2 PUERTAS, AUT, COUPE",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "220IA COUPE 2.0L TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "220IA GRAN COUPE 2.0L TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "M4 COUPE COMPETITION TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
+        "target": "SERIE 4 430IA GRAN COUPE BASE, L4, 2.0T, 252 CP, 4 PUERTAS, AUT",
+        "label": 0
+    }   
+]
