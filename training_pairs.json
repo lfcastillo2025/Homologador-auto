@@ -323,5 +323,60 @@
         "query": "SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB",
         "target": "SERIE 4 430IA GRAN COUPE BASE, L4, 2.0T, 252 CP, 4 PUERTAS, AUT",
         "label": 0
-    }   
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "label": 1
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "2 SPORT L4 IEM AUT 5 ABS CA CE TELA CD SQ CB",
+        "label": 1
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "2 HB I GRAND TOURING MHEV L4 FSI AUT 5 ABS CA CE PIEL SM SQ CB",
+        "label": 1
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "2 SEDAN I SPORT L4 FSI STD 4 ABS CA CE TELA SM SQ CB",
+        "label": 1
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "2 SEDAN I SPORT L4 FSI AUT 4 ABS CA CE TELA SM SQ CB",
+        "label": 1
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "MX-5 I SPORT L4 IEM STD 2 ABS CA CE TELA SM SQ CB",
+        "label": 0
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "CX-5 I SPORT, L4, 2.5L, 188 CP, 5 PUERTAS, AUT",
+        "label": 0
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "MAZDA3 I SPORT, L4, 2.5L, 186 CP, 4 PUERTAS, AUT",
+        "label": 0
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "3 SD I SPORT 2.5 TA",
+        "label": 0
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "CX-30 I SPORT, L4, 2.5L, 189 CP, 5 PUERTAS, AUT",
+        "label": 0
+    },
+    {
+        "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
+        "target": "MX-5 I SPORT L4 IEM STD 2 ABS CA CE TELA SM SQ CB",
+        "label": 0
+    }
 ]
