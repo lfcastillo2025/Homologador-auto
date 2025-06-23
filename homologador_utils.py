@@ -113,6 +113,8 @@ def buscar_similares_hibrido(input_data, catalogos):
         booster = calcular_booster(input_full, desc)
         final_score = combined_score + booster
 
+        if final_score < 50:
+          continue
         resultados_por_aseguradora[item["source"]].append({
             "score": round(final_score, 2),
             "sbert": round(sbert_score, 2),

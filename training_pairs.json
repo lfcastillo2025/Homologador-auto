@@ -428,5 +428,145 @@
         "query": "PICK UP MONTANA RS PAQ B CREW CAB L3 IMP AUT 4 ABS CA CE TELA SM SQ CB",
         "target": "CHEYENNE RST CREW CAB 4X4 TA B",
         "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "SERIE 1 118IA 1.5L 5PTAS TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "SERIE 1 118I 5PTAS TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "SERIE 1 128TI 2.0L TA",
+        "label": 1
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "IX1 EDRIVE20 BEV TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "X1 SDRIVE 18IA TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "IX1 XDRIVE30 BEV TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "X1 SDRIVE 20I TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "X1 SDRIVE 25E PHEV TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "JCW 1TO6 2.0T TM",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "M135A XDRIVE 2.0 TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "X5 XDRIVE 40I 3.0L TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "X2 SDRIVE18IA TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "Z4 M40IA 3.0L TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "320I 2.0T TA",
+        "label": 0
+    },
+    {
+        "query": "SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB",
+        "target": "CLUBMAN 2.0 S ICONIC TA",
+        "label": 0
+    },
+    {
+        "query": "C40 RECHARGE PURE ELECTRIC P8  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "C40 RECHARGE PLUS EV TA",
+        "label": 1
+    },
+    {
+        "query": "C40 EV RECHARGE TWIN ULTIMATE  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "C40 RECHARGE EV TWIN ULTIMATE TA",
+        "label": 1
+    },
+    {
+        "query": "XC40 P8 RECHARGE ULTIMATE TWIN  ELE AUT 5 ABS CA CE PIEL SM CQ CB",
+        "target": "XC40 BEV RECHARGE PLUS TA",
+        "label": 1
+    },
+    {
+        "query": "XC40 P6 RECHARGE PLUS  ELE AUT 5 ABS CA CE PIEL SM CQ CB",
+        "target": "XC40 BEV RECHARGE TWIN ULTIMATE TA",
+        "label": 1
+    },
+    {
+        "query": "XC40 T5 RECHARGE PLUS L3 FSI AUT 5 ABS CA CE PIEL SM CQ CB",
+        "target": "XC40 B4 PLUS HYBRID TA",
+        "label": 1
+    },
+    {
+        "query": "XC40 B4 PLUS L4 FSI AUT 5 ABS CA CE PIEL SM CQ CB",
+        "target": "XC40 B4 PLUS HYBRID TA",
+        "label": 1
+    },
+    {
+        "query": "XC40 B4 ULTIMATE L4 FSI AUT 5 ABS CA CE PIEL SM CQ CB",
+        "target": "XC40 B4 ULTIMATE HYBRID TA",
+        "label": 1
+    },
+    {
+        "query": "C40 RECHARGE PURE ELECTRIC P8  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "XC40 P8 RECHARGE ULTIMATE TWIN  ELE AUT 5 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "C40 EV RECHARGE TWIN ULTIMATE  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "XC40 P6 RECHARGE PLUS  ELE AUT 5 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "C40 RECHARGE PURE ELECTRIC P8  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "XC40 B4 ULTIMATE L4 FSI AUT 5 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "C40 EV RECHARGE TWIN ULTIMATE  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "XC40 B4 PLUS L4 FSI AUT 5 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "C40 EV RECHARGE TWIN ULTIMATE  ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "XC40 T5 RECHARGE PLUS L3 FSI AUT 5 ABS CA CE PIEL SM CQ CB",
+        "label": 0
+    },
+    {
+        "query": "C40 EV RECHARGE TWIN ULTIMATE ELE AUT 5 ABS CA CE TELA SM CQ CB",
+        "target": "XC40 P8 RECHARGE ULTIMATE TWIN ELE AUT 5 ABS CA CE PIEL SM CQ CB",
+        "label": 0
     }
 ]
