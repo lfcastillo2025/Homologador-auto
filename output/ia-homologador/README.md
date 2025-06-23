@@ -4,35 +4,35 @@ tags:
 - sentence-similarity
 - feature-extraction
 - generated_from_trainer
-- dataset_size:65
+- dataset_size:114
 - loss:CosineSimilarityLoss
 base_model: sentence-transformers/all-MiniLM-L6-v2
 widget:
-- source_sentence: JETTA SPORTLINE L4 TURBO AUT 4 ABS CA CE PIEL
-  sentences:
-  - MAZDA CX-3 I TOURING
-  - MAZDA 3 SEDAN SPORT 2.5L
-  - JETTA SPORTLINE 1.4L TSI DSG
-- source_sentence: AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB
-  sentences:
-  - TIGUAN COMFORTLINE 1.4L DSG
-  - CHEVROLET SPARK LT 1.4L MANUAL
-  - AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB
-- source_sentence: CIVIC EX-T L4 TURBO AUT 4 ABS CA CE PIEL
-  sentences:
-  - A3 RS3 SEDAN QUATTRO S TRONIC
-  - ACCORD HYBRID 2.0L
-  - COROLLA HYBRID CVT 1.8L
-- source_sentence: AVEO PAQ A LS L4 MPI STD 5 ABS CA CE TELA SM SQ CB
-  sentences:
-  - AVEO LT PLUS 1.5L HB CVT
-  - SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB
-  - MAZDA 2 SEDAN TOURING 1.5L
 - source_sentence: SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB
   sentences:
-  - A3 SEDAN 2.0 TFSI S LINE STRONIC
+  - XC40 B4 PLUS L4 FSI AUT 5 ABS CA CE PIEL SM CQ CB
+  - IX1 XDRIVE30 BEV TA
+  - SERIE 2 M240IA BASE, L6, 3.0T, 387 CP, 2 PUERTAS, AUT, COUPE
+- source_sentence: C40 EV RECHARGE TWIN ULTIMATE  ELE AUT 5 ABS CA CE TELA SM CQ CB
+  sentences:
+  - XC40 T5 RECHARGE PLUS L3 FSI AUT 5 ABS CA CE PIEL SM CQ CB
   - SERIE 2 220I COUPE, L4, 2.0T, 184 CP, 2 PUERTAS, AUT
-  - CHEVROLET AVEO LS 1.5L AT
+  - CHEYENNE CREW CAB HIGH COUNTRY TA J
+- source_sentence: CX-30 GRAND TOURING L4 AUT PIEL SM
+  sentences:
+  - XC40 BEV RECHARGE PLUS TA
+  - MAZDA CX-30 GRAND TOURING 2.5L
+  - YARIS SEDAN 1.5L AUT
+- source_sentence: COROLLA HYBRID CVT 1.8L
+  sentences:
+  - BMW X1 SDRIVE20I
+  - COROLLA HYBRID CVT 1.8L
+  - SERIE M M2 COUPE L6 IMP AUT 2 ABS CA CE PIEL SM CQ CB
+- source_sentence: 2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB
+  sentences:
+  - CHEYENNE RST CREW CAB 4X4 TA B
+  - SERIE M M4 COUPE COMPETITION L6 IMP AUT 2 ABS CA CE PIEL SM SQ CB
+  - 2 SPORT L4 IEM AUT 5 ABS CA CE TELA CD SQ CB
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -86,9 +86,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB',
-    'SERIE 2 220I COUPE, L4, 2.0T, 184 CP, 2 PUERTAS, AUT',
-    'A3 SEDAN 2.0 TFSI S LINE STRONIC',
+    '2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB',
+    '2 SPORT L4 IEM AUT 5 ABS CA CE TELA CD SQ CB',
+    'CHEYENNE RST CREW CAB 4X4 TA B',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -142,19 +142,19 @@ You can finetune this model on your own dataset.
 
 #### Unnamed Dataset
 
-* Size: 65 training samples
+* Size: 114 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
-* Approximate statistics based on the first 65 samples:
-  |         | sentence_0                                                                        | sentence_1                                                                        | label                                                          |
-  |:--------|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:---------------------------------------------------------------|
-  | type    | string                                                                            | string                                                                            | float                                                          |
-  | details | <ul><li>min: 8 tokens</li><li>mean: 17.34 tokens</li><li>max: 24 tokens</li></ul> | <ul><li>min: 7 tokens</li><li>mean: 14.05 tokens</li><li>max: 30 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.52</li><li>max: 1.0</li></ul> |
+* Approximate statistics based on the first 114 samples:
+  |         | sentence_0                                                                        | sentence_1                                                                        | label                                                         |
+  |:--------|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:--------------------------------------------------------------|
+  | type    | string                                                                            | string                                                                            | float                                                         |
+  | details | <ul><li>min: 8 tokens</li><li>mean: 19.51 tokens</li><li>max: 31 tokens</li></ul> | <ul><li>min: 7 tokens</li><li>mean: 15.23 tokens</li><li>max: 32 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.5</li><li>max: 1.0</li></ul> |
 * Samples:
-  | sentence_0                                              | sentence_1                           | label            |
-  |:--------------------------------------------------------|:-------------------------------------|:-----------------|
-  | <code>TIGUAN COMFORTLINE DSG L4 TURBO AUT</code>        | <code>JETTA STYLE 1.4L</code>        | <code>0.0</code> |
-  | <code>TERRITORY TITANIUM TURBO L4 AUT CA CE PIEL</code> | <code>ESCAPE SE SPORT HÍBRIDO</code> | <code>0.0</code> |
-  | <code>COROLLA HYBRID CVT 1.8L</code>                    | <code>COROLLA HYBRID CVT 1.8L</code> | <code>1.0</code> |
+  | sentence_0                                                            | sentence_1                                                            | label            |
+  |:----------------------------------------------------------------------|:----------------------------------------------------------------------|:-----------------|
+  | <code>SERIE 1 118IA L4 IMP AUT 5 ABS CA CE PIEL CD SQ CB</code>       | <code>SERIE 1 128TI 2.0L TA</code>                                    | <code>1.0</code> |
+  | <code>MAZDA 3 SEDAN I GRAND TOURING L4 IMP AUT</code>                 | <code>MAZDA CX-3 I TOURING</code>                                     | <code>0.0</code> |
+  | <code>SERIE 2 220IA COUPE L4 IMP AUT 3 ABS CA CE PIEL CD CQ CB</code> | <code>SERIE 4 430IA COUPE L4 IMP AUT 2 ABS CA CE PIEL SM CQ CB</code> | <code>0.0</code> |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
@@ -165,7 +165,7 @@ You can finetune this model on your own dataset.
 ### Training Hyperparameters
 #### Non-Default Hyperparameters
 
-- `num_train_epochs`: 5
+- `num_train_epochs`: 8
 - `multi_dataset_batch_sampler`: round_robin
 
 #### All Hyperparameters
@@ -188,7 +188,7 @@ You can finetune this model on your own dataset.
 - `adam_beta2`: 0.999
 - `adam_epsilon`: 1e-08
 - `max_grad_norm`: 1
-- `num_train_epochs`: 5
+- `num_train_epochs`: 8
 - `max_steps`: -1
 - `lr_scheduler_type`: linear
 - `lr_scheduler_kwargs`: {}
