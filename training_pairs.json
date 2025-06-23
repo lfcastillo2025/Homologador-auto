@@ -378,5 +378,55 @@
         "query": "2 2 SPORT L4 IEM STD 5 ABS CA CE TELA CD SQ CB",
         "target": "MX-5 I SPORT L4 IEM STD 2 ABS CA CE TELA SM SQ CB",
         "label": 0
+    },
+    {
+        "query": "PICK UP CHEVROLET S10 MAX PAQ C CREW CAB L4 STD 4 ABS CA CE SM CB",
+        "target": "S10 MAX CREW CAB, L4, 2.4L, 141 CP, 4 PUERTAS, STD, PAQ C",
+        "label": 1
+    },
+    {
+        "query": "PICK UP CHEVROLET S10 MAX PAQ D CREW CAB 4X4 L4 STD 4 ABS CA CE SM CB",
+        "target": "S10 MAX CREW CAB, L4, 2.0T, 218 CP, 4 PUERTAS, STD, PAQ D",
+        "label": 1
+    },
+    {
+        "query": "PICK UP CHEVROLET S10 MAX PAQ B L4 IMP STD 2 ABS CA CE TELA CD SQ CB",
+        "target": "S10 MAX CABINA REGULAR, L4, 2.4L, 141 CP, 2 PUERTAS, STD, PQ B",
+        "label": 1
+    },
+    {
+        "query": "PICK UP CHEVROLET S10 MAX PAQ C CREW CAB L4 STD 4 ABS CA CE SM CB",
+        "target": "S10 MAX CHASIS CABINA, L4, 2.4L, 141 CP, 2 PUERTAS, STD, PAQ A",
+        "label": 1
+    },
+    {
+        "query": "PICK UP CHEYENNE 2500 ZR2 PAQ D CREW CAB 4X4 V8 IMP AUT 4 ABS CA CE PIEL SM CQ CB",
+        "target": "CHEYENNE CREW CAB HIGH COUNTRY G",
+        "label": 1
+    },
+    {
+        "query": "PICK UP SILVERADO 2500 PAQ K CREW CAB 4X4 V8 AUT 4 ABS CA CE SM CB",
+        "target": "SILVERADO 2500 DOB CAB E",
+        "label": 1
+    },
+    {
+        "query": "PICK UP MONTANA LT PAQ A CREW CAB L3 IMP AUT 4 ABS CA CE TELA SM SQ CB",
+        "target": "S10 MAX CREW CAB 2.4L TM C",
+        "label": 0
+    },
+    {
+        "query": "PICK UP CHEYENNE 2500 HCNTRY PAQ G CREW CAB 4X4 V8 IMP AUT 4 ABS CA CE PIEL SM CQ CB",
+        "target": "CHEYENNE CREW CAB HIGH COUNTRY TA J",
+        "label": 1
+    },
+    {
+        "query": "PICK UP CHEVROLET S10 MAX PAQ C CREW CAB L4 STD 4 ABS CA CE SM CB",
+        "target": "S10 MAX CREW CAB TURBO 2.0L TM D",
+        "label": 1
+    },
+    {
+        "query": "PICK UP MONTANA RS PAQ B CREW CAB L3 IMP AUT 4 ABS CA CE TELA SM SQ CB",
+        "target": "CHEYENNE RST CREW CAB 4X4 TA B",
+        "label": 0
     }
 ]

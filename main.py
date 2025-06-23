@@ -35,7 +35,9 @@ def homologar(
             salida.append({
                 "modelString": modelo["description"],
                 "aseguradora": aseguradora,
-                "insuranceCompanyId": modelo["insuranceCompanyId"]
+                "insuranceCompanyId": modelo["insuranceCompanyId"],
+                "score": modelo.get("score", None)  # Asegura que no truene si falta
+
             })
 
     return salida
